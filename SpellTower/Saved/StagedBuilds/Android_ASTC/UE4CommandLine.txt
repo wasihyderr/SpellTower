@@ -1,0 +1,1 @@
+../../../SpellTower/SpellTower.uproject   -Messaging -SessionId=EDE9CE074E2BDDEB785B688355F37D8B -SessionOwner="sarvz" -SessionName="SM_A305F (R58M66PD3XH)"    -filehostip=127.0.0.1+2400:adc5:454:a00::2+2400:adc5:454:a00:9d82:8f3a:94f3:6fd5+192.168.18.237
