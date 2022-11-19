@@ -7,9 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{94A6C6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{8E2F6A87-1826-34F4-940C-CC23A48F9FE4}"
 EndProject
+<<<<<<< HEAD
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{0E83F700-F931-4439-9786-F5E89FAE7D28}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpellTower", "Intermediate\ProjectFiles\SpellTower.vcxproj", "{0E82AB38-7FDB-4AB3-B6CB-168BA615D656}"
+=======
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{6C4678DB-3605-468B-ABB3-98F39CA97DA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpellTower", "Intermediate\ProjectFiles\SpellTower.vcxproj", "{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}"
+>>>>>>> sarbz-w
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{1CCEC849-CC72-4C59-8C36-2F7C38706D4C}"
 	ProjectSection(SolutionItems) = preProject
@@ -39,6 +45,7 @@ Global
 		ueSolution=true
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{0E83F700-F931-4439-9786-F5E89FAE7D28}.DebugGame Editor|Android.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{0E83F700-F931-4439-9786-F5E89FAE7D28}.DebugGame Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
 		{0E83F700-F931-4439-9786-F5E89FAE7D28}.DebugGame Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
@@ -80,12 +87,60 @@ Global
 		{0E82AB38-7FDB-4AB3-B6CB-168BA615D656}.Shipping|Win32.Build.0 = Shipping|Win32
 		{0E82AB38-7FDB-4AB3-B6CB-168BA615D656}.Shipping|Win64.ActiveCfg = Shipping|x64
 		{0E82AB38-7FDB-4AB3-B6CB-168BA615D656}.Shipping|Win64.Build.0 = Shipping|x64
+=======
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.DebugGame Editor|Android.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.DebugGame Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.DebugGame Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.DebugGame|Android.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.DebugGame|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.DebugGame|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Development Editor|Android.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Development Editor|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Development Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Development|Android.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Development|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Development|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Shipping|Android.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Shipping|Win32.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5}.Shipping|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame Editor|Android.ActiveCfg = Invalid|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame Editor|Win32.ActiveCfg = Invalid|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame Editor|Win64.Build.0 = DebugGame_Editor|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame|Android.ActiveCfg = Android_DebugGame|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame|Android.Build.0 = Android_DebugGame|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame|Win32.ActiveCfg = DebugGame|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame|Win32.Build.0 = DebugGame|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame|Win64.ActiveCfg = DebugGame|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.DebugGame|Win64.Build.0 = DebugGame|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development Editor|Android.ActiveCfg = Invalid|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development Editor|Win32.ActiveCfg = Invalid|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development Editor|Win64.ActiveCfg = Development_Editor|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development Editor|Win64.Build.0 = Development_Editor|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development|Android.ActiveCfg = Android_Development|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development|Android.Build.0 = Android_Development|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development|Win32.ActiveCfg = Development|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development|Win32.Build.0 = Development|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development|Win64.ActiveCfg = Development|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Development|Win64.Build.0 = Development|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Shipping|Android.ActiveCfg = Android_Shipping|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Shipping|Android.Build.0 = Android_Shipping|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Shipping|Win32.ActiveCfg = Shipping|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Shipping|Win32.Build.0 = Shipping|Win32
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Shipping|Win64.ActiveCfg = Shipping|x64
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F}.Shipping|Win64.Build.0 = Shipping|x64
+>>>>>>> sarbz-w
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+<<<<<<< HEAD
 		{0E83F700-F931-4439-9786-F5E89FAE7D28} = {94A6C6F3-99B3-346E-9557-ABF9D4064DBD}
 		{0E82AB38-7FDB-4AB3-B6CB-168BA615D656} = {8E2F6A87-1826-34F4-940C-CC23A48F9FE4}
+=======
+		{6C4678DB-3605-468B-ABB3-98F39CA97DA5} = {94A6C6F3-99B3-346E-9557-ABF9D4064DBD}
+		{65B8E65A-9AE2-4C9A-A357-FD3E96912F9F} = {8E2F6A87-1826-34F4-940C-CC23A48F9FE4}
+>>>>>>> sarbz-w
 	EndGlobalSection
 EndGlobal

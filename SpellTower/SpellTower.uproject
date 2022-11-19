@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"FileVersion": 3,
 	"EngineAssociation": "4.27",
@@ -19,4 +20,27 @@
 			"Enabled": true
 		}
 	]
+=======
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SpellTower",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		}
+	]
+>>>>>>> sarbz-w
 }
