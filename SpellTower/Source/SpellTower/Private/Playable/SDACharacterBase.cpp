@@ -28,7 +28,9 @@ ASDACharacterBase::ASDACharacterBase()
 
 	staticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
 	staticMeshComp->SetupAttachment(RootComponent);
-	//staticMeshComp->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	staticMeshComp->SetCollisionEnabled(ECollisionEnabled::QueryAndPhysics);
+	staticMeshComp->SetCollisionProfileName(TEXT("PhysicsActor"));
+
 
 }
 
@@ -63,6 +65,7 @@ void ASDACharacterBase::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 }
 
 void ASDACharacterBase::changeDirection(float angle) {
-	FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
-	AddMovementInput(Direction, angle);
+	/*FVector Direction = FRotationMatrix(Controller->GetControlRotation()).GetScaledAxis(EAxis::X);
+	AddMovementInput(Direction, angle);*/
+	AddMovementInput(FVector(angle, 0.0f, 0.0f), 1.0f, false);
 }
