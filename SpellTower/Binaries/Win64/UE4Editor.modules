@@ -2,10 +2,6 @@
 	"BuildId": "17155196",
 	"Modules": 
 	{
-<<<<<<< HEAD
-		"SpellTower": "UE4Editor-SpellTower-9107.dll"
-=======
-		"SpellTower": "UE4Editor-SpellTower-0092.dll"
->>>>>>> sarbz-w
+		"SpellTower": "UE4Editor-SpellTower-5931.dll"
 	}
 }
